@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #171717;
+    
+}
+
+/*NavBar*/
+
+nav{
+
+    position: relative;
+    width: 100%;
+    max-width:730px;
+    height: 70px;
+    border-style: solid;
+    top: 30px;
+    left: 26%;
+    border-radius: 40px ;
+    box-shadow: 10px 20px 45px 20px black;
+    background-color: #222222;
+    display: flex;
+}
+
+nav a{
+text-decoration: none;
+position: relative;
+text-align: center;
+margin-left: 55px;
+font-size: 20px;
+left: 35px;
+top: 18px;
+color: gray;
+text-shadow: 5px 5px 5px  #171717;
+font-family: 'JetBrains Mono', monospace;
+display: flex;
+
+}
+nav a:hover{
+   color:white;
+
+   transition: 0.5s;
+   font-size: 21px;
+  
+   }
+
+
+  
+
+
+
+/*Box*/
+
+.box{
+    
+    position:absolute;
+    width: 100%;
+    max-width: 900px;
+    border-style: solid;
+    height: 400px;
+    top: 23%;
+    left: 20%;
+    border-radius: 40px 50px 60px 40px;
+    box-shadow: 10px 20px 45px 20px black;
+    background-color: #313131;
+    
+}
+
+.box img{
+       position: relative;
+       height: 200px;
+       box-shadow: 6px 8px 10px 10px #171717 ;
+       border-radius: 100px;
+       top: 50px;
+       left: 50px;
+       z-index: 1;
+}
+
+.box p{
+
+    position: relative;
+    left: 300px;
+    bottom: 90px;
+    height: 220px;
+    width: 500px;
+    z-index: 2;
+    font-size: 20px;
+   padding: 0px;
+   padding-left: 30px;
+   color: #8AA15C;
+   text-shadow: 2px 1px  black ;
+   font-family: 'JetBrains Mono', monospace;
+}
+
+
+@media screen and (max-width:1030px) {
+    
+    
+    .box{
+  
+        
+        width: 550px;
+        height: 530px;
+        left: 160px;
+     
+
+       
+        
+    }
+    
+    .box img{
+          
+           height: 200px;
+       
+    }
+    
+    .box p{
+        left: 20px;
+        top: 80px;
+        height: 220px;
+        width: 500px;
+        flex-direction: column;
+        
+       
+   
+          
+    }
+
+
+
+
+
+    nav{
+
+      
+        width:570px;
+        height: 70px;
+      
+      
+     
+    }
+    
+    nav a{
+  
+    text-align: center;
+    margin-left: 25px;
+  
+    
+    }
+
+}
+
+
+
+
+    
+
+
+
+
+
+   
+
+
+
